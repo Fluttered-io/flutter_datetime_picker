@@ -1,15 +1,15 @@
 library flutter_datetime_picker;
 
 import 'dart:async';
+
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
-import 'package:flutter_datetime_picker/src/datetime_picker_theme.dart';
+import 'package:flutter/material.dart' hide DatePickerTheme;
 import 'package:flutter_datetime_picker/src/date_model.dart';
+import 'package:flutter_datetime_picker/src/datetime_picker_theme.dart';
 import 'package:flutter_datetime_picker/src/i18n_model.dart';
 
-export 'package:flutter_datetime_picker/src/datetime_picker_theme.dart';
 export 'package:flutter_datetime_picker/src/date_model.dart';
+export 'package:flutter_datetime_picker/src/datetime_picker_theme.dart';
 export 'package:flutter_datetime_picker/src/i18n_model.dart';
 
 typedef DateChangedCallback(DateTime time);
